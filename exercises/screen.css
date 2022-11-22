@@ -1,0 +1,52 @@
+/*"Миний кодын эхлэл" хакатоны дасгал хуудаст зориулсан stylesheet*/
+body{
+    background-color: slateblue;
+    background-repeat: no-repeat;
+    padding: 25px;
+    margin: 0px;
+}
+/* id="wrapper"-тай div-ийг зохиомжлох*/ 
+#container{
+    background-color: lightsteelblue;
+    width: 720px;
+    height: 250px;
+    margin-left: 50px;
+    
+}
+#wrapper{
+    background-color: bisque;
+    width:720px;
+    height: 150px;
+    margin-left: 50px;
+}
+#header{
+    background-color: blue;
+    width: 720px;
+    height: 60px; 
+    margin-left: 50px;
+
+}
+#header>table tr td{
+    text-align: center;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    width: 240px;
+    height: 55px;
+    background-color: lightcoral;
+}
+#header>table{
+    border-spacing: 0px;
+    font-family: Segoe print;
+    font-size: large;
+}
+#mgl{
+    width: 100px;
+    height: 460px;
+    background-color: lightcyan;
+    color: black;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 30px;
+    -webkit-writing-mode: vertical-lr;
+    -webkit-text-orientation: sideways-right;
+}
